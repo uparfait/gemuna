@@ -46,7 +46,7 @@ function Main() {
   }, [all_games, featured_games, most_played_games, isLoading]);
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-50 via-green-50 to-gray-100 relative overflow-x-hidden">
+    <main className="min-h-screen bg-gradient-to-br from-gray-50 via-green-50 to-gray-100 relative overflow-x-hidden" id="main-contentas">
       <SEO />
       
       {/* Top ad space - Sticky */}
