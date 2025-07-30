@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
-import PlayGamePage from './pages/play_game';
-import SearchyPage from './pages/searchy';
+import PlayGamePage from './pages/play_game.jsx';
+import SearchyPage from './pages/searchy.jsx';
 
 function Layout() {
   return (
