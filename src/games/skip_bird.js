@@ -12,3 +12,5 @@ function SkipBird({ user, onProgress }) {
     ctx.font = '24px Arial';
     ctx.fillText('Skip Bird Game', 60, 240);
   }, []);
+
+}

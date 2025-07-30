@@ -20,5 +20,5 @@ export const games_registry = [
 ];
 
 export function get_game_by_name(name) {
-  return games_registry.find(g => g.name === name);
+  return games_registry.find(g => g.name.toLocaleLowerCase().indexOf(name.toLocaleLowerCase()) !== -1 || g.display_name.toLocaleLowerCase().indexOf(name.toLocaleLowerCase()) !== -1 || g.description.toLocaleLowerCase().indexOf(name.toLocaleLowerCase()) !== -1);
 }
