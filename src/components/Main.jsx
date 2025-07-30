@@ -1,11 +1,8 @@
-import React from 'react';
-
+import React, { useState, useEffect, useRef } from 'react';
 import SEO from './SEO';
 import GamesList from './games_list';
 import SearchBar from './search_bar';
 import SectionTitle from './section_title';
-
-import React, { useState, useEffect, useRef } from 'react';
 import { games_registry } from '../games/games_registry';
 
 function get_random_games(games, count, exclude = []) {
