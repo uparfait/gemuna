@@ -1,6 +1,6 @@
 
-import SkitBirdGame from './skit_bird';
-import SkipBird from './skip_bird';
+import SkitBirdGame from './skit_bird.jsx';
+import SkipBird from './skip_bird.jsx';
 
 export const games_registry = [
   {
