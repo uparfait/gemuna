@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { games_registry } from '../games/games_registry';
 import { useNavigate } from 'react-router-dom';
